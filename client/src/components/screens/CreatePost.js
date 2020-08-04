@@ -39,7 +39,7 @@ const CretePost = ()=>{
    const postDetails = ()=>{
        const data = new FormData()
        data.append("file",image)
-       data.append("upload_preset","new-insta")
+       data.append("upload_preset","instagram-clone")
        data.append("cloud_name","ashokjat9671")
        fetch("https://api.cloudinary.com/v1_1/ashokjat9671/image/upload",{ 
         
